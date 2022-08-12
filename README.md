@@ -4,7 +4,8 @@ The software runs on [ROS noetic](http://wiki.ros.org/noetic) and [Ubuntu 20.04]
 
 The robot is capable of walking.
 
-<img src="resources/notspot_render_new1" width="233"> <img src="resources/notspot_render_new2" width="233"> <img src="resources/notspot_render_new3" width="233"> 
+<img src="resources/notspot_render_new1" width="233"> 
+<!-- <img src="resources/notspot_render_new2" width="233"> <img src="resources/notspot_render_new3" width="233">  -->
 
 ## Setup
 ```
@@ -16,13 +17,17 @@ cp -r RoboticsUtilities ~/.local/lib/python3.8/site-packages
 roscd notspot_joystick/scripts && chmod +x ramped_joystick.py
 ```
 ## Run
+
+In another terminal
 ```
 source devel/setup.bash
 roslaunch notspot_gazebo simulation.launch
 ```
-In another terminal
+
 
 ## Run
+
+In another terminal
 ```
 source devel/setup.bash
 roslaunch notspot run_robot_gazebo.launch
